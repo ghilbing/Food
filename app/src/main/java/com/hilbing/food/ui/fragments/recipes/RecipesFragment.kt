@@ -1,11 +1,10 @@
-package com.hilbing.food.fragments
+package com.hilbing.food.ui.fragments.recipes
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.hilbing.food.databinding.ActivityMainBinding
 import com.hilbing.food.databinding.FragmentRecipesBinding
 
 class RecipesFragment : Fragment() {

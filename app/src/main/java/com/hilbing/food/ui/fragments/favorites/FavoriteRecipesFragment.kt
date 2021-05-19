@@ -1,4 +1,4 @@
-package com.hilbing.food.fragments
+package com.hilbing.food.ui.fragments.favorites
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -7,7 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import com.hilbing.food.R
 
-class FoodJokeFragment : Fragment() {
+
+class FavoriteRecipesFragment : Fragment() {
 
 
     override fun onCreateView(
@@ -15,7 +16,7 @@ class FoodJokeFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_food_joke, container, false)
+        return inflater.inflate(R.layout.fragment_favorite_recipes, container, false)
     }
 
 }
