@@ -1,4 +1,4 @@
-package com.hilbing.food
+package com.hilbing.food.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
