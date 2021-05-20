@@ -1,4 +1,4 @@
-package com.hilbing.food.api
+package com.hilbing.food.data.network
 
 import com.hilbing.food.model.FoodRecipe
 import retrofit2.Response

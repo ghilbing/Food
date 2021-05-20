@@ -1,6 +1,6 @@
 package com.hilbing.food.di
 
-import com.hilbing.food.api.FoodRecipeApi
+import com.hilbing.food.data.network.FoodRecipeApi
 import com.hilbing.food.utils.Constants
 import dagger.Module
 import dagger.Provides
