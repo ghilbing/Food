@@ -1,4 +1,4 @@
-package com.hilbing.food
+package com.hilbing.food.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,6 +8,7 @@ import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.NavigationUI
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import com.hilbing.food.R
 import com.hilbing.food.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -28,7 +29,8 @@ class MainActivity : AppCompatActivity() {
         val appBarConfiguration = AppBarConfiguration(setOf(
             R.id.recipesFragment,
             R.id.favoriteRecipesFragment,
-            R.id.foodJokeFragment))
+            R.id.foodJokeFragment
+        ))
         setupActionBarWithNavController(mNavController, appBarConfiguration)
         mBinding.bottomNavigationView.setupWithNavController(mNavController)
     }
